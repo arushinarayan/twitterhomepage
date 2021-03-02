@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', 'sans-serif';
+}
+.container{
+  display: grid;
+  grid-template-columns: 2fr 5fr 3fr;
+  grid-template-rows: 0.5fr 1fr 4fr 2fr;
+  height: 105vh;
+}
+.left-panel-options{
+  color: white;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.logo i{
+  padding-left: 10%;
+  padding-top: 6%;
+  padding-bottom: 10%;
+  align-self: start;
+  font-size: 33px;
+  color: white;
+}
+.optionhome div a{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  padding-left: 10%;
+  padding-top: 6%;
+  padding-bottom: 10%;
+  border-radius: 30px;
+  color: #1DA1F2 ;
+}
+.optionhome div a i{
+  font-weight: 200;
+}
+.optionhome div a:hover{
+  color: white;
+  background: black;
+}
+.options div a{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  padding-left: 10%;
+  padding-top: 6%;
+  padding-bottom: 10%;
+  border-radius: 30px;
+  color: white;
+}
+.options div a i{
+  font-weight: 200;
+}
+.options div a:hover{
+  color: #1DA1F2;
+  background: black;
+}
+.options button{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 60px;
+  border-radius: 90px;
+  outline: none;
+  background: #1DA1F2;
+  color: white;
+  border: none;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+  width: 180px;
+}
+.options button:hover{
+  background: #0093ff;
+  transition: 0.1s;
+}
+
+
+
+.left-panel-profile{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.yourprofile{
+  display: grid;
+  grid-template-columns: 12% 76% 12%;
+  margin: 20px 0 10px 0;
+  align-items: center;
+  }
+.yourprofileimg{
+    padding: 0 0 0 10px;
+  }
+.yourprofileimg img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity:0.9;
+}
+.yourprofileimg img:hover{
+  opacity: 1;
+}
+.yourname{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.yourname span b{
+  margin-left: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+    color: white;
+}
+.yourname span b:hover{
+    text-decoration: underline;
+}
+#username{
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 20px;
+  color: #525252;
+}
+.yourname span i{
+  margin-left: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding: 0 4px 0 4px;
+  color: white;
+  font-size: 20px;
+}
+
+.middle-panel-top{
+  border-bottom: 1px solid #525252;
+  border-left: 1px solid #525252;
+  border-right: 1px solid #525252;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.top span{
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  align-self: center;
+}
+.top span b{
+  padding-left: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: 4000;
+  font-size: 20px;
+}
+.top span i{
+  padding-left: 470px;
+  font-size: 18px;
+  color: #1DA1F2;
+}
+
+.middle-panel-yourtwt{
+  border: 1px solid #525252;
+  border-bottom: 10px solid #525252;
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.yourtweet{
+  display: block;
+  width: 100%;
+  border-bottom: 10px solid black;
+  height: 130px;
+}
+.profilemsg{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 15px;
+}
+.profilemsg img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity:0.9;
+}
+.profilemsg img:hover{
+  opacity: 1;
+}
+.profilemsg span input{
+  background-color: black;
+  padding: 0 0 0 10px;
+  font-size: 18px;
+  color: #525252;
+  letter-spacing: 0.5px;
+  border: none;
+  outline: none;
+}
+.add{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.add-extras{
+  padding-left: 60px;
+}
+.add-extras span a{
+  text-decoration: none;
+  color: #1DA1F2;
+  font-size: 20px;
+  padding: 8px 8px;
+  border-radius: 50%;
+}
+.add-extras span a:hover{
+  background: black;
+}
+.add span button{
+  margin: 0 30px 0 0;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  background: #1DA1F2;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+.add span button:hover{
+  background:  #0093ff;
+}
+
+.middle-panel-feed{
+  border-right: 1px solid #525252;
+  border-left: 1px solid #525252;
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+.otherstweets{
+  width: 100%;
+  border-bottom: 1px solid #525252;
+}
+.othertweets{
+  width: 100%;
+  
+}
+.otherprofilemsg{
+display: grid;
+grid-template-columns: 12% 76% 12%;
+margin: 20px 0 10px 0;
+align-items: center;
+}
+.othersprofile{
+  padding: 0 0 0 10px;
+}
+.othersprofile img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.othersprofile img:hover{
+  opacity: 1;
+}
+.namemsg span i{
+  padding: 0 4px 0 4px;
+  color: white;
+  font-size: 20px;
+}
+.namemsg{
+cursor: pointer;
+}
+.namemsg span p{
+  color: #525252;
+}
+.namemsg span b{
+  color: white;
+}
+.namemsg span b:hover{
+  text-decoration: underline;
+}
+.tweetmsg{
+  color: white;
+  font-size: 16px;
+  font-weight:500;
+  padding: 5px 0 0 0;
+  text-align: justify;
+  word-wrap: break-word;
+}
+.tweetmsg p span{
+  color: #1DA1F2;
+  font-size: 16px;
+  font-weight:500;
+  padding: 5px 0 0 0;
+  text-align: justify;
+  word-wrap: break-word;
+}
+.moredots{
+  cursor: pointer;
+}
+.postedimg{
+  margin: 0 0 0 12%;
+}
+.postedimg img{
+  border-radius: 20px;
+  width: 90%;
+  max-height: 280px;
+  object-fit: cover;
+  object-position: 20% 10%;
+}
+.reactions{
+  margin: 3% 0 5% 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  opacity: 0.7;
+}
+.reactions div{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.reactions div p{
+  padding: 0 0 0 5px;
+  font-size: 12px;
+}
+.reactions div i{
+  font-size: 20px;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+.comment:hover{
+  color:  #0093ff;
+}
+.retweet:hover{
+  color:green;
+}
+.like:hover{
+  color: red;
+}
+.bookmark:hover{
+  color: #0093ff;
+}
+.tip:hover{
+  color: #0093ff
+}
+
+.right-panel-search{
+  color: white;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.search{
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 55px;
+  position: sticky;
+  top: 0;
+  background: black;
+  align-items: center;
+  z-index:1000;
+}
+.search input{
+  width: 100%;
+  height: 40px;
+  margin: 1% 0 0 0;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background:#202327;
+  padding: 0 10px 0 50px;
+  font-size: 15px;
+  color: #525252;
+  letter-spacing: 1px;
+}
+.search span{
+  position: absolute;
+  left: 7%;
+  top: 12px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #525252;
+}
+
+.right-panel-trending{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+#tcard{
+background-color: #202327;
+width: 90%;
+border-radius: 10px;
+margin-left: 15px;
+margin-right: 10px;
+margin-top: 5px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+align-items: center;
+}
+.header{
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #525252;
+}
+.header p{
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;
+}
+.trend{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  border-bottom: 1px solid #525252;
+}
+.trendmsg{
+  margin: 15px 0 0 20px
+}
+.trendname{
+  margin: 0 0 10px 0;
+  cursor: pointer;
+}
+.trendname p{
+  font-size: 12px;
+  opacity: 1;
+  color: #525252;
+}
+.trendname p span{
+  font-size: 12px;
+  opacity: 1;
+  color: #1DA1F2;
+}
+.subject p{
+  font-size: 15px;
+  font-weight: 600;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+  color: white;
+}
+.trendimage{
+  padding: 20px 0;
+}
+.trendimage img{
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+
+.right-panel-messages{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+#mcard{
+background-color: #070708;
+width: 90%;
+border-radius: 10px;
+margin-left: 15px;
+margin-right: 10px;
+margin-top: 5px;
+box-shadow: 0px 0 10px whitesmoke;
+align-items: center;
+}
+.messagesheader{
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #525252;
+}
+.messagesheader p{
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;
+}
+.messagesheader p i{
+  font-size: 18px;
+  color: #1DA1F2;
+}
